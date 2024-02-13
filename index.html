@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>P&G</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;500;600&family=Petit+Formal+Script&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <style>
+        #confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events:visibleFill;
+  z-index: 33;
+  
+}
+
+    </style>
+    <body data-bs-spy="scroll" data-bs-target="#navBar" id="weddingHome">
+        <div id="confetti-container"></div>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="container-fluid">
+                <div class="container px-0">
+                    <nav class="navbar navbar-light navbar-expand-xl" id="navBar">
+                        <a href="index.html" class="navbar-brand">
+                            <h4 class="text-primary display-6 fw-bold mb-0">P<strong class="text-secondary">&</strong>G</h4>
+                        </a>
+                        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="fa fa-bars text-primary"></span>
+                        </button>
+                        <div class="collapse navbar-collapse py-3" id="navbarCollapse">
+                            <div class="navbar-nav mx-auto border-top">
+                                <a href="#weddingHome" class="nav-item nav-link active">Home</a>
+                                <a href="#weddingAbout" class="nav-item nav-link">About</a>
+                                <a href="#weddingStory" class="nav-item nav-link">Story</a>
+                                <a href="#weddingGallery" class="nav-item nav-link">Gallery</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid carousel-header px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/media18.jpeg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">Happy Valentine's Day</h4>
+                                </div>
+                                <h1 class="display-1 text-capitalize text-white mb-3"><i class="fa fa-heart text-primary"></i> GOWTHAMI</h1>
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">7 YEAR'S OF LOVE</h4>
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/2.jpeg" class="img-fluid" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING LOVED</h4>
+                                </div>
+                                <h1 class="display-1 text-capitalize text-white mb-3"><i class="fa fa-heart text-primary"></i> GOWTHAMI</h1>
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">7 YEAR'S OF LOVE</h4>
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/3.jpeg" class="img-fluid bg-secondary" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING LOVED</h4>
+                                </div>
+                                <h1 class="display-1 text-capitalize text-white mb-3"><i class="fa fa-heart text-primary"></i> GOWTHAMI</h1>
+                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">7 YEAR'S OF LOVE</h4>
+                                </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Hello! Start -->
+        <div class="container-fluid position-relative py-5" id="weddingAbout">
+            <div class="position-absolute" style="top: -35px; right: 0;">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="position-absolute" style="top: -10px; left: 0; transform: rotate(150deg);">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="container position-relative py-5">
+                <div class="mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800;">
+                    <h1 class="text-primary display-1">Hello!</h1>
+                    <h4 class="text-dark mb-0">MY LOVE & PARTNER</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="d-flex">
+                                    <div class="text-end my-auto pe-4">
+                                        <h3 class="text-primary mb-3">LOVER</h3>
+                                        <p class="text-dark mb-0" style="line-height: 30px;">I love you not only for what you are, but for what I am when I am with you. I love you not only for what you have made of yourself, but for what you are making of me. I love you for the part of me that you bring out.
+                                        </p>
+                                    </div>
+                                    <img src="img/media36.jpg" style="width: 40%;" class="img-fluid img-border" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-2 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-heart fa-5x text-primary"></i>
+                               </div>
+                            </div>
+                            <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="d-flex">
+                                    <img src="img/5.png"  style="width: 40%;" class="img-fluid img-border" alt="">
+                                    <div class="my-auto ps-4">
+                                        <h3 class="text-primary mb-3">PARTNER</h3>
+                                        <p class="text-dark mb-0" style="line-height: 30px;">No matter how many years pass by in our marriage, there will be two moments when I will like to be with you – Now and Forever! Love you, my sweetie
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hello! End -->
+
+           
+
+
+        <!-- About Start -->
+        <div class="container-fluid position-relative overflow-hidden bg-secondary py-5">
+            <img src="img/bg-flower.png" class="img-fluid position-absolute top-0" style="right: -15px; transform: rotate(270deg); opacity: 0.5;" alt="">
+            <img src="img/bg-flower.png" class="img-fluid position-absolute" style="bottom: 10px; left: -15px; transform: rotate(90deg); opacity: 0.5;" alt="">
+            <div class="container py-5 position-relative">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="border-white bg-primary" style="border-style: double;">
+                            <img src="img/6.png" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="wow fadeIn" data-wow-delay="0.3s">
+                            <h1 class="display-5 text-white mb-4"><i class="fa fa-heart text-primary"></i> You make every moment happy for me</h1>
+                            <p class="text-white fs-5 mb-4">Cause all of me/Loves all of you/Love your curves and all your edges/All your perfect imperfections/Give your all to me/I'll give my all to you/You're my end and my beginning/Even when I lose, I'm winning — All of Me </br> </br> </br>நீர் இன்றி அமையாது இவ்வுலகம்.
+                                நீ இன்றி அமையாது என் உலகம். </br> </br></br> முகம் பார்த்து வந்த அன்பு முறிந்து விடும்…!!!
+                                பணம் பார்த்து வந்த அன்பு பாதியில் போய்விடும்…!!!
+                                உள்ளம் பார்த்து வந்த அன்பு கடைசி நொடி வரை நிலைத்திருக்கும்
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Story Start -->
+        <div class="container-fluid story position-relative py-5" id="weddingStory">
+            <div class="position-absolute" style="top: -35px; right: 0;">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="position-absolute" style="top: -15px; left: 0; transform: rotate(150deg);">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="container position-relative py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-uppercase text-primary fw-bold mb-4">Story</h5>
+                    <h1 class="display-4">Our Love Story</h1>
+                </div>
+                <div class="story-timeline">
+                    <div class="row wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-md-6 text-end border-0 border-top border-end border-secondary p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center h-100">
+                                <img src="img/media47.jpeg" style="width: 40% !important"  class="img-fluid w-100 img-border" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h4 class="mb-2 text-dark">First Meet</h4>
+                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">Nov 2017</p>
+                                <p class="m-0 fs-5">I love you more than I’ve ever loved anyone. More than I thought I was capable of. You’ve taken my heart by surprise from the day I first saw you. It hasn’t been my heart since. </br> </br>என் கண்களில் உள்ள காதலை
+                                    நீ புரிந்து கொள்ளவில்லை தான்.
+                                    இருந்தும் என் காதல் குறையவில்லை.
+                                    காதலித்து கொண்டே இருக்கிறேன் கனவினில். </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h4 class="text-dark mb-2">First Date</h4>
+                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">Jan 2019</p>
+                                <p class="m-0 fs-5">Our first date was a magical moment that I still hold dear to my heart.” “A first date is an opportunity to create a beautiful memory that you will cherish for the rest of your life. </br> </br>கடவுள் உன்னை யோசித்து வடித்தானோ!
+                                    இல்லை நேசித்து வடித்தானோ!
+                                    இப்படி ஒரு அழகு கவிதையை
+                                    படைத்து அனுப்பி விட்டான் எனக்காய்.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 border-start border-top border-secondary p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center h-100">
+                                <img src="img/media5.jpeg" style="width: 40% !important" class="img-fluid w-100 img-border" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
+                            <div class="d-inline-flex align-items-center justify-content-center h-100">
+                                <img src="img/media48.jpeg" style="width: 60% !important" class="img-fluid w-100 img-border" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h4 class="text-dark mb-2">Proposal</h4>
+                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">Jan 2020</p>
+                                <p class="m-0 fs-5">I'll be your dream; I'll be your wish; I'll be your fantasy. I'll be your hope, I'll be your love, and I'll be everything that you need. I love you more with every breath. Truly, deeply, I will be strong. I will be faithful because I'm counting on a new beginning. A reason for living. A deeper meaning. </br> </br>உன் அன்புக்கு அடிமையாக,
+                                    ஆசை தீரா காதலுடன்,
+                                    மோகம் குறையா காமத்துடன்
+                                    ஆயுள் வரை உன் கரம் பற்றி
+                                    வாழ்ந்திட ஆசையடி எனக்கு.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-md-6 text-end border border-start-0 border-secondary p-4 ps-0">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h4 class="text-dark mb-2">Enagagement</h4>
+                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">Oct 2022</p>
+                                <p class="m-0 fs-5">கோபப்படுவது நீயாக இருக்கும் போது,
+                                    உன்னிடம் தோற்பது எனக்கு சுகமே!</br> </br>சிரிப்பை விட கண்ணீருக்கே மதிப்பு அதிகம்,
+                                    யாருக்காக வேண்டுமானாலும் சிரிக்கலாம்,
+                                    ஆனால் உன்மையான அன்பு இல்லாமல் யாருக்காகவும் கண்ணீர் சிந்த முடியாது..!!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 border border-end-0 border-secondary p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center h-100">
+                                <img src="img/7.png"  style="width: 60% !important" class="img-fluid w-100 img-border" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
+                            <div class="d-inline-flex align-items-center justify-content-center h-100">
+                                <img src="img/8.png" style="width: 60% !important" class="img-fluid w-100 img-border" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h4 class="text-dark mb-2">Marriage</h4>
+                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">Mar 2023</p>
+                                <p class="m-0 fs-5">விழுதுகள் மரத்தை தாங்கலாம்
+                                    வேர் மட்டுமே அதை வாழ வைக்க முடியும்
+                                    எத்தனை சொந்தங்கள் இருந்தாலும்
+                                    ஓர் ஆணுக்கு மனைவி தான்
+                                    ஓர் பெண்ணுக்கு கணவன் தான்
+                                    அதற்கு இணை வேறு எதுவும் இல்லை.</p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-md-6 text-end border border-start-0 border-secondary p-4 ps-0">
+                            <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4">
+                                <h4 class="text-dark mb-2">Mom & Dad</h4>
+                                <p class="text-uppercase text-primary mb-2" style="letter-spacing: 3px;">Dec 2023</p>
+                                <p class="m-0 fs-5">ஆணினத்திற்கே கிடைக்காத பாக்கியம்
+
+                                    பெண்னினம் மட்டுமே பெற்று வந்த பரிசு!
+                                    
+                                    
+                                    
+                                    ஒரு கவளம் சோற்றைக் கூட - அதிகமாய்
+                                    
+                                    உட்கொள்ளாத வயிறு..!
+                                    
+                                    
+                                    
+                                    ஒரு உயிரையே உள்ளே வளரச் செய்யும்
+                                    
+                                    உலக அதிசயம்..!
+                                    
+                                    
+                                    
+                                    எவ்வளவுதான் விஞ்ஞான வசதிகள் வந்தாலும்
+                                    
+                                    கருவறையை விடப் பாதுகாப்பான அறையை
+                                    
+                                    குழந்தைக்கு தர யாருக்கு முடியும்..?
+                                    
+                                    
+                                    
+                                    இறைவனின் வல்லமைக்கு இதனை விட
+                                    
+                                    சான்று வேண்டுமா..?
+                                    
+                                    
+                                    
+                                    பத்து நிமிடம் சுமந்தால் தோள் கனத்துப் போகிறது
+                                    
+                                    பத்து மாதம் சுமந்தாலும் கருவறை கனப்பதில்லை..!
+                                    
+                                    
+                                    
+                                    வலி என்றாலே உயிர் போகிறது என்பார்கள் - ஆனால்
+                                    
+                                    இந்த வலியில் மட்டுமே உயிர் வரும்..!
+                                    
+                                    
+                                    
+                                    குழந்தையாய்...
+                                    
+                                    சிறுமியாய்...
+                                    
+                                    குமரியாய்...
+                                    
+                                    மனைவியாய் வளரும் உறவு
+                                    
+                                    தாய்மையில்தான் தன்னிறைவு பெறுகிறது..!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 border border-end-0 border-secondary p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center h-100">
+                                <img src="img/9.jpeg" style="width: 60% !important" class="img-fluid w-100 img-border" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Story End -->
+     <!-- Gallery Start -->
+     <div class="container-fluid gallery position-relative py-5" id="weddingGallery">
+        <div class="position-absolute" style="top: -95px; right: 0;">
+            <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="position-absolute" style="top: -80px; left: 0; transform: rotate(150deg);">
+            <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="container position-relative py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h1 class="display-2 text-dark">Our Gallery</h1>
+                <p class="fs-5 text-dark">கண்கள் பேசுவதும்,
+                    இதழ்கள் பேசுவதும்,
+                    உன்னிடம் மட்டும் தான்.
+                    இதயம் பேசு துடிப்பதும்
+                    உன்னிடம் மட்டும் தான்.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media5.jpeg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media5.jpeg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media11.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media11.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media7.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media7.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media8.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media8.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media6.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media6.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media9.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media9.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media10.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media10.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media42.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media42.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media12.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media12.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media13.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media13.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media14.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media14.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media15.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media15.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media16.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media16.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media20.jpeg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media20.jpeg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media36.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media36.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media38.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media38.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media30.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media30.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/5.png" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/5.png" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media32.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media32.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            
+              
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/4.png" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/4.png" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media41.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media41.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media42.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media42.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media43.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media43.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media46.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media46.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media34.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media34.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media32.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media32.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media29.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media29.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <img class="img-fluid w-100" src="img/media30.jpg" alt="">
+                            <div class="hover-style"></div>
+                            <div class="search-icon">
+                                <a href="img/media30.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Gallery end -->
+
+        <!--- Wedding Date -->
+        <div class="container-fluid wedding-date-bg position-relative py-5">
+            <div class="position-absolute" style="top: -100px; right: 0;">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="position-absolute" style="top: -80px; left: 0; transform: rotate(150deg);">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="container py-5 wow zoomIn" data-wow-delay="0.1s">
+                <div class="wedding-date text-center bg-light p-5" style="border-style: double !important; border: 15px solid rgba(253, 93, 93, 0.5);">
+                    <div class="wedding-date-content">
+                        <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                            <h4 class="text-dark text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">என் கண்களுக்கு
+                                நீ காட்டிய அழகை விட
+                                என் உள்ளத்துக்கு
+                                நீ காட்டிய
+                                அன்பே உயர்ந்தது!</h4>
+                        </div>
+                        <h1 class="display-4">நீ என்னை விட்டு
+                            விலக நினைக்கும்
+                            அந்த நொடிக்கு முன்
+                            நீ நினைத்து பார்க்க முடியாத
+                            தூரத்திற்கு நான் சென்றிருப்பேன்..</h1>
+                        <p class="text-dark fs-5">உன் பாசம் மட்டும்
+                            போதாது உன் கோபம்
+                            தான் உன்னை அதிகம்
+                            நினைவூட்டுகிறது</p>
+                   
+                    </div>
+                    <div class="position-absolute" style="top: 15%; right: -30px; transform: rotate(320deg); opacity: 0.5; z-index: 1;">
+                        <img src="img/attendance-bg.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="position-absolute" style="top: 15%; left: -10px; transform: rotate(-320deg); opacity: 0.5; z-index: 1;">
+                        <img src="img/attendance-bg.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Wedding Date -->
+
+
+
+
+  
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5 justify-content-center">
+                  
+                    <div class="col-lg-4 text-center">
+                        <div class="footer-item">
+                            <h4 class="mb-4 text-white">My<strong class="text-primary">&</strong>Love</h4>
+                            <p class="text-white">மழை முத்தமிட்டு எழுப்பும்
+                                மண்வாசனையை போல
+                                என் சுவாசக்காற்றை முத்தமிட்டு
+                                என்னை எழுப்பிச் செல்கிறது
+                                உன் யோசனை </br> </br>
+                                முன்னாள் இந்நாள்
+என்றெல்லாம் இல்லை
+காதல் எந்நாளுக்குமானது
+
+உனக்கும் எனக்குமான
+இந்தக் கால இடைவெளி
+ஊதினால் பறந்து விடும் தூசிப்படலம்.
+
+என்றைக்கானாலும் சரி
+நீ வந்து முன் நின்றால்
+என் ஆணிவேர் அசையும்.
+
+ஏற்றிவைக்க மட்டுமே வழியுள்ள
+காதலின் பீடத்தில்
+நீயே ராணி.
+</br> </br>
+ஒரு sorryயில் தீர்ந்து விடக்கூடிய பிரச்சனை,
+ஒலிக்கும் என் ஒவ்வொரு குரலிலும்
+உன் புருவம் உயர்ந்து தாழ்ந்து சுணங்கும்.
+நான் காத்திருக்கிறேன்
+ஒரு sorry கேட்டா கிரீடம் இறங்கிடுமோ! என
+நீ பிடிக்கப்போகும் புதுச் சண்டைக்காக.
+                            </p>
+                         
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+
+
+
+
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize confetti
+        particlesJS("confetti-container", {
+          particles: {
+            number: {
+              value: 30, // Adjust the number of confetti particles
+            },
+            color: {
+              value: "#ff0000", // Adjust the confetti color
+            },
+            size: {
+              value: 10, // Adjust the size of confetti particles
+            },
+            shape: {
+                type: "image", // Set the shape type to image
+                image: {
+                    src: "img/heart.png", // Replace with the path to your heart icon image
+                    width: 100, // Adjust the width of the image
+                    height: 100, // Adjust the height of the image
+                },
+                },
+    line_linked: {
+      enable: false, // Disable connecting lines
+      distance: 150, // Adjust the distance at which connecting lines are visible
+      color: "#ff0000", // Set the connecting lines color to red
+      opacity: 0.5, // Adjust the opacity of connecting lines (0 to 1)
+      width: 2, // Adjust the width of connecting lines
+
+    },
+    
+          },
+        });
+      </script>
+      
+    </body>
+
+</html>
